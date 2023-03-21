@@ -6,6 +6,7 @@ println  "Root project:   ${project.rootProject}";
 println  "Root project:   ${project.rootProject}";
 println  "  rootDir:      ${project.rootDir}"
 println  "  projectDir:   ${project.projectDir}";
+
 allprojects {
     repositories {
 //        mavenLocal()
