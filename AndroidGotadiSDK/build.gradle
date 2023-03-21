@@ -78,6 +78,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -88,7 +94,7 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.gotadi.b2b2c'
+            groupId = 'com.github.thanhduy1812'
             artifactId = 'gtd-android-sdk'
             version = '0.0.0'
 
