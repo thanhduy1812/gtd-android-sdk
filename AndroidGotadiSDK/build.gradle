@@ -92,25 +92,25 @@ dependencies {
 }
 
 publishing {
-    repositories {
+//    repositories {
+////        maven {
+////            url = "file://${buildDir}/AndroidGotadiSDK/libs"
+////        }
 //        maven {
-//            url = "file://${buildDir}/AndroidGotadiSDK/libs"
+//            url = "file://${project.rootDir}/AndroidGotadiSDK/libs"
 //        }
-        maven {
-            url = "file://${project.rootDir}/AndroidGotadiSDK/libs"
-        }
+////        maven {
+////            url "${project.rootDir}/AndroidGotadiSDK/libs"
+////        }
 //        maven {
-//            url "${project.rootDir}/AndroidGotadiSDK/libs"
+//            url 'https://storage.googleapis.com/download.flutter.io'
 //        }
-        maven {
-            url 'https://storage.googleapis.com/download.flutter.io'
-        }
-    }
+//    }
     publications {
         release(MavenPublication) {
             groupId = 'com.github.thanhduy1812'
             artifactId = 'gtd-android-sdk'
-            version = '0.0.3'
+            version = '0.0.4'
 
             afterEvaluate {
                 from components.release
