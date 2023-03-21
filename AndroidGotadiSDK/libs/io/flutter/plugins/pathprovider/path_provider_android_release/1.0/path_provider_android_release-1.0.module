@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.pathprovider",
+    "module": "path_provider_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-1.0.aar",
+          "url": "path_provider_android_release-1.0.aar",
+          "size": 12398,
+          "sha512": "3e5edcfed68032f5d9516a1685015e517e3f7d10c8157b54f6065e26bb69cfb24942e73f9fbd010200202f9e35e64832c1183c4804a477653d1823d8eb7f0152",
+          "sha256": "b5b9faac1039ed7ef23748428b2c66790dbf455179f586c7e7f687470002e365",
+          "sha1": "a33f4416ff015a210d29a52906c0c264fb26a308",
+          "md5": "b96f0c8914cf2cc449c09df31527614e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "path_provider_android_release-1.0.aar",
+          "url": "path_provider_android_release-1.0.aar",
+          "size": 12398,
+          "sha512": "3e5edcfed68032f5d9516a1685015e517e3f7d10c8157b54f6065e26bb69cfb24942e73f9fbd010200202f9e35e64832c1183c4804a477653d1823d8eb7f0152",
+          "sha256": "b5b9faac1039ed7ef23748428b2c66790dbf455179f586c7e7f687470002e365",
+          "sha1": "a33f4416ff015a210d29a52906c0c264fb26a308",
+          "md5": "b96f0c8914cf2cc449c09df31527614e"
+        }
+      ]
+    }
+  ]
+}
