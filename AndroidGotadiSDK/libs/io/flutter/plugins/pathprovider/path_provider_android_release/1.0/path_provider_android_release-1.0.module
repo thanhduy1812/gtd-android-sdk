@@ -27,7 +27,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "path_provider_android_release-1.0.aar",
           "url": "path_provider_android_release-1.0.aar",
-          "size": 12398,
-          "sha512": "3e5edcfed68032f5d9516a1685015e517e3f7d10c8157b54f6065e26bb69cfb24942e73f9fbd010200202f9e35e64832c1183c4804a477653d1823d8eb7f0152",
-          "sha256": "b5b9faac1039ed7ef23748428b2c66790dbf455179f586c7e7f687470002e365",
-          "sha1": "a33f4416ff015a210d29a52906c0c264fb26a308",
-          "md5": "b96f0c8914cf2cc449c09df31527614e"
+          "size": 12431,
+          "sha512": "ad884a1ceada3c3bca06d7ccb2a5ca82fe17f5e4db2c22f14c18a454285d931956e7a1b9d5d85fded29006acfef8e3b08b68d208c1e9b4d1576730899f310865",
+          "sha256": "cc95f50e5d3b898a3e381ce48522a282ab6d14a47b0221cd4a18d52eea29c68f",
+          "sha1": "368ae5d8eb76fc982bbbe349d9600f0811af4407",
+          "md5": "13cd7f594f26707d1f9ead30a0f3db42"
         }
       ]
     },
@@ -56,7 +56,7 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-1837b5be5f0f1376a1ccf383950e83a80177fb4e"
+            "requires": "1.0.0-1a65d409c7a1438a34d21b60bf30a6fd5db59314"
           }
         },
         {
@@ -71,11 +71,11 @@
         {
           "name": "path_provider_android_release-1.0.aar",
           "url": "path_provider_android_release-1.0.aar",
-          "size": 12398,
-          "sha512": "3e5edcfed68032f5d9516a1685015e517e3f7d10c8157b54f6065e26bb69cfb24942e73f9fbd010200202f9e35e64832c1183c4804a477653d1823d8eb7f0152",
-          "sha256": "b5b9faac1039ed7ef23748428b2c66790dbf455179f586c7e7f687470002e365",
-          "sha1": "a33f4416ff015a210d29a52906c0c264fb26a308",
-          "md5": "b96f0c8914cf2cc449c09df31527614e"
+          "size": 12431,
+          "sha512": "ad884a1ceada3c3bca06d7ccb2a5ca82fe17f5e4db2c22f14c18a454285d931956e7a1b9d5d85fded29006acfef8e3b08b68d208c1e9b4d1576730899f310865",
+          "sha256": "cc95f50e5d3b898a3e381ce48522a282ab6d14a47b0221cd4a18d52eea29c68f",
+          "sha1": "368ae5d8eb76fc982bbbe349d9600f0811af4407",
+          "md5": "13cd7f594f26707d1f9ead30a0f3db42"
         }
       ]
     }

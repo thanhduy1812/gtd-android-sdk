@@ -92,20 +92,20 @@ dependencies {
 }
 
 publishing {
-//    repositories {
-////        maven {
-////            url = "file://${buildDir}/AndroidGotadiSDK/libs"
-////        }
+    repositories {
+//        maven {
+//            url = "file://${buildDir}/AndroidGotadiSDK/libs"
+//        }
 //        maven {
 //            url = "file://${project.rootDir}/AndroidGotadiSDK/libs"
 //        }
-////        maven {
-////            url "${project.rootDir}/AndroidGotadiSDK/libs"
-////        }
-//        maven {
-//            url 'https://storage.googleapis.com/download.flutter.io'
-//        }
-//    }
+        maven {
+            url "${project.rootDir}/AndroidGotadiSDK/libs"
+        }
+        maven {
+            url 'https://storage.googleapis.com/download.flutter.io'
+        }
+    }
     publications {
         release(MavenPublication) {
             groupId = 'com.github.thanhduy1812'
@@ -116,6 +116,12 @@ publishing {
                 from components.release
             }
         }
+//        AAR(MavenPublication) {
+//            groupId "com.github.thanhduy1812"
+//            artifactId "flutter_release"
+//            version = '0.0.4'
+//            artifact("../../demo-flutter/build/host/outputs/repo/flutter/demo/flutter_release/$flutterSDKVersion/flutter_release-${flutterSDKVersion}.aar")
+//        }
     }
 
 }
