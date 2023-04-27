@@ -1,9 +1,6 @@
 package com.gotadi.AndroidGotadiSDK
 
-import android.app.Activity
-import android.app.Application
 import android.content.Context
-import android.content.ContextWrapper
 import android.content.Intent
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
@@ -12,7 +9,7 @@ import io.flutter.embedding.engine.dart.DartExecutor
 
 
 
-class GotadiAdapter(context: Context, setting: GotadiPartnerSetting) {
+class AndroidGotadiSDK(context: Context, setting: GotadiPartnerSetting) {
     private lateinit var flutterEngine : FlutterEngine
     val actionHandler = GotadiActionHandler.instance
 
