@@ -87,8 +87,7 @@ android {
 }
 
 dependencies {
-    debugImplementation 'com.gtd.b2b2c:flutter_release:1.0'
-    releaseImplementation 'com.gtd.b2b2c:flutter_release:1.0'
+    implementation 'com.gtd.b2b2c:flutter_release:1.0'
 }
 
 publishing {

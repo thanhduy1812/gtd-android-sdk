@@ -40,6 +40,7 @@ class AndroidGotadiSDK(context: Context, setting: GotadiPartnerSetting) {
         arguments.putIfAbsent("partner", setting.partnerName)
         arguments.putIfAbsent("locale", setting.language)
         arguments.putIfAbsent("token", setting.token)
+        arguments.putIfAbsent("theme", setting.theme.name)
         println(arguments)
 //        flutterEngine.localizationChannel.channel.invokeMethod("partner.app.scheme",arguments)
         flutterEngine.localizationChannel.channel.setMethodCallHandler { call, result ->

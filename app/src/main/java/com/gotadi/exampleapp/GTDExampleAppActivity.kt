@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.gotadi.AndroidGotadiSDK.AndroidGotadiSDK
+import com.gotadi.AndroidGotadiSDK.GTDThemeMode
 import com.gotadi.AndroidGotadiSDK.GotadiCallback
 import com.gotadi.AndroidGotadiSDK.GotadiPartnerSetting
 
@@ -20,7 +21,7 @@ class GTDExampleAppActivity : AppCompatActivity() {
         //Call API and get gotadi Token
         gotadiSDK = AndroidGotadiSDK(
             this,
-            setting = GotadiPartnerSetting("uat", "vib", "vi","token"))
+            setting = GotadiPartnerSetting("uat", "vib", "vi","token", theme = GTDThemeMode.secondary))
         button.setOnClickListener {
             val intent = gotadiSDK?.createGotadiIntent()
             intent?.let {
